@@ -1,0 +1,17 @@
+*.pyc
+*.pth
+*.zip
+*.DS_Store
+events.*
+exp.csv
+
+# Exclude folders
+__pycache__/
+data/
+pretrained/
+LLaMA-Adapter/
+Flipped_VQA/
+output_dir/
+mist/
+results_ignore/
+unused_script/
