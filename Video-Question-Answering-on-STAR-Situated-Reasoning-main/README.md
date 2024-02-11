@@ -17,7 +17,7 @@ bash finetune.sh
 ```
 For TAs, how to reproduce our results:
 1. Calculate the correct base learning rate:\
-the author set blr as 0.09 with 4 GPUs; therefore, we set blr as 0.09*4=0.36 for a single GPU.
+The author set blr as 0.09 with 4 GPUs; therefore, we set blr as 0.09*4=0.36 for a single GPU.
 2. Remove distributed training:\
 The performance is improved after disabling distributed training.
 3. Set constant learning rate with warm up:\
